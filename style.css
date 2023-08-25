@@ -1,0 +1,179 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: blanchedalmond;
+}
+
+.head-center, .index-button {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+.button {
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(2, 66, 2);
+    color: rgb(119, 255, 119);
+}
+
+.button-index {
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(2, 66, 2);
+    color: rgb(119, 255, 119);
+}
+
+.button:hover, .button-index:hover {
+    background-color: blue;
+    box-shadow: 3px 3px 5px rgb(2, 66, 2);
+}
+
+.index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.index-vid {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.about-text {
+    padding-left: 20px;
+}
+
+.abt-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=text], input[type=email] {
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+input[type=number] {
+    width: 10%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(2, 66, 2);
+    color: rgb(119, 255, 119);
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+    box-shadow: 3px 3px 5px rgb(2, 66, 2);
+}
+
+textarea {
+    width: 40%;
+    height: 200px;
+    padding: 10px 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.main-container {
+    display: flex;   
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.item:hover {
+    box-shadow: 5px 5px 8px rgb(2, 66, 2);
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.contacth4 {
+    margin: 5px;
+}
