@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>    
+    <body>
+        <h1>FORMS</h1>
+        <form>
+        <p>
+            Please fill the following fields.<br>
+            Unless stated otherwise,<strong> ALL</strong> fields are <span style="color:red"><strong>required</strong>.
+        </p>
+        <hr>
+            <label for="fname">First Name</label>&nbsp;
+            <input type="text" id="fname" name="fname" placeholder="First Name">&nbsp;&nbsp;&nbsp;
+            <label for="lname">Last Name</label>&nbsp;
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+            <label for="age">Age</label>&nbsp;
+            <input type="number" id="age" name="age" min="17" max="50" placeholder="Age"><br><br>
+            <label for="birthday">Birthday</label>&nbsp;
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="height">Height</label>&nbsp;
+            <input type="text" id="height" name="height" placeholder="Height">
+            <label for="height">cm</label>&nbsp;&nbsp;
+            <label for="weight">Weight</label>&nbsp;
+            <input type="text" id="weight" name="weight" placeholder="Weight">
+            <label for="weight">kg</label><br><br>
+            <label for="email">Enter your e-mail</label>&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" name="email" placeholder="E-mail"><br><br>
+            <label for="phone">Enter your phone number</label>&nbsp;&nbsp;
+            <input type="tel" id="phone" name="phone" placeholder="1234-5678-9000" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
+        <p>
+            What is your Gender?
+        </p>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="others" name="Gender" value="Rather not say">
+            <label for="others">Rather not say</label>
+        <p>
+            Write short description about yourself:
+        </p>    
+            <textarea name="Yourself" rows="10" cols="50" placeholder="Write your description here"></textarea><br><br>
+            <label for="website">Enter the name of your personal blog site (if you have one)</label>&nbsp;&nbsp;
+            <input type="url" id="website" name="website" placeholder="Your blog site"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
