@@ -1,0 +1,66 @@
+#header, #footer {
+    background-color: blueviolet;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.font {
+    font-style: italic;
+}
+
+.flex-container1, .flex-container2, .flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.flex-container1 {
+    margin: 0px 0px 16px 0px;
+}
+
+.flex-container3 {
+    margin: 16px 0px 0px 0px;
+}
+
+.card {
+    border: 1px;
+    box-shadow: 2px 2px 5px green;
+    width: 200px;
+    height: 350px;
+    margin: 1px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 10px;
+}
