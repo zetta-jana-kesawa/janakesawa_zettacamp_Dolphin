@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+            border:1px solid white;
+            border-collapse:collapse;
+        }
+    </style>
+    <head>
+        <title>MAX MUSIC</title>
+    </head>
+    <header>
+        <ul style="list-style-type: none;">
+            <li><a href="../index.html">Back Home</a></li>
+        </ul>
+    </header>
+    <hr>
+    <body>
+        <h1>MAX MUSIC SUBSCRIPTION FORM</h1>
+        <hr>
+        <form action="profile.html">
+            <table style="width:50%">
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" size="30" placeholder="Your Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-Mail</label></td>
+                    <td><input type="email" id="email" name="email" size="30" placeholder="e.g. kowabunga@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td><input type="tel" id="phone" name="phone" size="30" pattern="[0]{1}-[0-9]{2}-[0-9]{2}-[0-9]{3}" placeholder="e.g. 0-15-24-777"></td>
+                </tr>
+            </table>
+         <p>Choose your subscription service</p>
+            <input type="radio" id="min" name="subscription" value="MIN SUBSCRIPTION">&nbsp;
+            <label for="min">MIN SUBSCRIPTION</label><br><br>
+            <input type="radio" id="med" name="subscription" value="MED SUBSCRIPTION">&nbsp;
+            <label for="med">MED SUBSCRIPTION</label><br><br>
+            <input type="radio" id="max" name="subscription" value="MAX SUBSCRIPTION">&nbsp;
+            <label for="max">MAX SUBSCRIPTION</label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+    <br><br>
+    <hr>
+    <footer>
+        &copy;&nbsp;2023 John Cash and co., All rights reserved
+    </footer>
+</html>
