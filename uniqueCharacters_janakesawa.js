@@ -9,7 +9,7 @@ function hasUniqueCharacters(string) {
     return true;
 }
 
-// console.log(hasUniqueCharacters("abcdefg"));
-// console.log(hasUniqueCharacters("hello"));
-// console.log(hasUniqueCharacters("zettabyte"));
-// console.log(hasUniqueCharacters("github"));
+console.log(hasUniqueCharacters("abcdefg"));
+console.log(hasUniqueCharacters("hello"));
+console.log(hasUniqueCharacters("zetabye"));
+console.log(hasUniqueCharacters("ump45isflat"));

@@ -17,13 +17,11 @@ const bookStock = [                                       /* object-in-array dat
     }
 ];
 
-// bookStock.push(addIndex2);
-
 // console.log(bookStock);
 
 // console.log(bookStock[0]);
 
-let bookBought = 10;                                     /* variable number */
+let bookBought = 11;                                     /* variable number */
 
 const bookName = bookStock[0].name,
     bookAuthor = bookStock[0].author,
@@ -37,15 +35,19 @@ function book_buy(bookName, bookAuthor, bookPrice, bookDisc, bookTax, bookLeft, 
 
     for (let x = 1; x <= bookLeft; x++)
         if (bookLeft - x >= 0 && bookBought <= bookLeft) {
-            console.log("Purchase successful. Remaining book in stock: " + (bookRemain));
+            console.log("Purchase successful.");
             break;
         } else {
-            console.log("Purchase unsuccessful due to invalid request.");
+            console.log("Purchase unsuccessful.");
             break;
         }
 
-    if (bookRemain === 0) {
-        console.log("The book is out of stock. You cannot purchase this book anymore.");
+    if (bookBought > bookLeft) {
+        console.log("You ordered more book than the amount of stock left.");
+    } else if (bookBought === bookLeft && bookRemain === 0) {
+        console.log("The book is out of stock.");
+    } else {
+        console.log("Remaining book in stock: " + (bookRemain));
     }
 
     return {
