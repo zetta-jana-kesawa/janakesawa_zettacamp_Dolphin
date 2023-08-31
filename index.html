@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h2 style="text-align: center;">BOOK LIBRARY</h2>
+        </header>
+        <h2 style="text-align: center;"><strong>Book Details</strong></h2>
+        <table class="tabcenter" id="table1" style="width: 80%;">
+            <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Total Count</th>
+                <th>Author</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Excursion to Tindari</td>
+                <td>10</td>
+                <td>Andrea Camilleri</td>
+                <td>A seemingly disconnected death between a couple and a teenager turns out to be a much more involved matter.</td>
+                <td><div class="buttontable">
+                    <button class="button" type="button" id="editbutton" onclick="editBook()">Edit</button>
+                    <button class="button" type="button" id="delbutton" onclick="deleteBook()">Delete</button>
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="tabbutton" style="width: 80%;">
+            <tr>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>
+                    <div class="index-button">
+                        <button class="button" type="button" id="addbutton">Add Book</button>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <form id="addform" class="forms"></form>
+        <footer>
+            <h4 style="text-align: center;">&copy;&nbsp;Book Library</h4>
+        </footer>
+
+        <script src="locstore.js"></script>
+    </body>
+
+
+
+
+
+
+</html>
+
+                <!-- <td>Excursion to Tindari</td>
+                <td>10</td>
+                <td>Andrea Camilleri</td>
+                <td>A seemingly disconnected death between a couple and a teenager turns out to be a much more involved matter.</td>
+                <td><div class="buttontable">
+                    <button class="button" type="button" id="editbutton" onclick="edit()">Edit</button>
+                    <button class="button" type="button" id="delbutton" onclick="del()">Delete</button>
+                    </div>
+                </td> -->

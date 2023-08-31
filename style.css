@@ -1,0 +1,60 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: blanchedalmond;
+}
+
+.tabcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.tabbutton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+th {
+    width: 25%;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+.buttontable {
+    display: block;
+}
+
+.button {
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(2, 66, 2);
+    color: rgb(119, 255, 119);
+}
+
+.button:hover {
+    background-color: blue;
+    box-shadow: 3px 3px 5px rgb(2, 66, 2);
+}
+
+.index-button {
+    text-align: center;
+}
