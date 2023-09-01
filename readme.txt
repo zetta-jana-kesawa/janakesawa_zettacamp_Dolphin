@@ -1,0 +1,1 @@
+tsconfig.json di dalam folder cypress berbeda dengan tsconfig.json di luar.

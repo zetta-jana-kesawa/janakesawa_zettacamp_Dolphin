@@ -1,0 +1,15 @@
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('http://localhost:4200/')
+    cy.get('[data-cy="input-name"]').type("Coffee Lover")
+    cy.get('[data-cy="input-password"]').type("kopiaddict")
+    cy.get('[data-cy="btn-login"]').click()
+    // cy.get('[data-cy="btn-add-menu-item-to-cart"]').first().click()
+    // cy.get('[data-cy="btn-add-menu-item-to-cart"]').last().click()
+    // cy.get('[data-cy="btn-add-menu-item-to-cart"]').click( { multiple: true} )
+    cy.get('[data-cy="menu-item"]:nth(1)').find('[data-cy="btn-add-menu-item-to-cart"]').click()
+    cy.get('[data-cy="menu-item"]:nth(2)').find('[data-cy="btn-add-menu-item-to-cart"]').click()
+    cy.get('[data-cy="btn-checkout"]').click()
+    cy.get('[data-cy="btn-logout"]').click()
+  })
+})
